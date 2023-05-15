@@ -6,7 +6,7 @@
 ## Install
 
 ```bash
-$ yarn react-msg
+$ yarn add react-msg
 ```
 
 ## Use
