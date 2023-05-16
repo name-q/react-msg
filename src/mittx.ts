@@ -9,7 +9,7 @@ interface Mitt {
   clear(type: Array<string | symbol>): void;
   del(): void;
   all(): {
-    storage: { [key: string]: EventHandler[] };
+    storage: { [key: symbol]: EventHandler[] };
     keys: (string | undefined)[];
   };
 }
